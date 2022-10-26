@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+  text-align: center;
+  overflow-x: hidden;
+}
+.squidfont {
+  font-family: "game_of_squidsregular";
+  margin: 20px;
+
+}
+h1 {
+  color: rgb(177, 86, 101);
+  font-size: 50px;
+}
+div td {
+  text-align: justify;
+  width: 100%;
+}
+.container-fluid {
+  position: absolute;
+  left: 12%;
+  right: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  height: auto;
+  border: none;
+  position: relative;
+}
+.card-title{
+    overflow-y: hidden;
+
+}
+img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
