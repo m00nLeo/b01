@@ -17,9 +17,9 @@ div td {
   text-align: justify;
   width: 100%;
 }
-.container-fluid {
-  position: absolute;
-  left: 12%;
+.row1 {
+  position: relative;
+  left: 10%;
   right: 10%;
   align-items: center;
   display: flex;
@@ -30,6 +30,14 @@ div td {
   height: auto;
   border: none;
   position: relative;
+}
+.row2 {
+  position: relative;
+  left: 10%;
+  right: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .card-title{
     overflow-y: hidden;
